@@ -551,3 +551,66 @@ border-radius:30px;
 font-size:16px;
 
 }
+.stats{
+
+padding:80px 8%;
+background:#063b32;
+text-align:center;
+color:white;
+
+}
+
+
+.stats h2{
+
+font-size:40px;
+margin-bottom:50px;
+
+}
+
+
+
+.stats-container{
+
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+
+}
+
+
+
+.stat-card{
+
+width:220px;
+
+padding:35px;
+
+background:white;
+
+color:#1f2937;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px #0003;
+
+}
+
+
+
+.stat-card h3{
+
+font-size:45px;
+color:#ff7a00;
+
+margin:0;
+
+}
+
+
+.stat-card p{
+
+font-size:18px;
+
+}
