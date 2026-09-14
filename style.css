@@ -617,7 +617,7 @@ font-size:18px;
 .testimoni{
 
 padding:80px 8%;
-background:white;
+background:#faf7f2;
 text-align:center;
 
 }
@@ -631,7 +631,6 @@ margin-bottom:50px;
 }
 
 
-
 .testimoni-container{
 
 display:flex;
@@ -642,14 +641,12 @@ flex-wrap:wrap;
 }
 
 
-
 .testimoni-card{
 
 width:300px;
+background:white;
 
 padding:30px;
-
-background:#faf7f2;
 
 border-radius:20px;
 
@@ -658,23 +655,20 @@ box-shadow:0 10px 25px #0002;
 }
 
 
-
 .testimoni-card p{
 
 font-size:18px;
+
 line-height:1.6;
 
 }
 
 
-
 .testimoni-card h3{
 
 color:#ff9800;
-font-size:22px;
 
 }
-
 
 
 .testimoni-card span{
@@ -682,28 +676,6 @@ font-size:22px;
 font-weight:bold;
 
 }
-.buy-button{
-
-display:inline-block;
-
-margin-top:15px;
-
-background:#25D366;
-
-color:white;
-
-padding:12px 25px;
-
-border-radius:30px;
-
-text-decoration:none;
-
-font-weight:bold;
-
-transition:.3s;
-
-}
-
 
 .buy-button:hover{
 
