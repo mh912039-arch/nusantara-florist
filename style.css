@@ -63,26 +63,23 @@ nav a:hover{
 
 .hero{
 
-.hero{
 min-height:700px;
+
 background:
 linear-gradient(
 90deg,
 rgba(6,43,43,.95),
-rgba(6,43,43,.3)
+rgba(6,43,43,.35)
 ),
 url("kopi.jpg");
 
 background-size:cover;
 background-position:center;
-}
-
 
 display:flex;
 align-items:center;
 
 padding:0 8%;
-
 
 }
 
