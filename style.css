@@ -614,3 +614,71 @@ margin:0;
 font-size:18px;
 
 }
+.testimoni{
+
+padding:80px 8%;
+background:white;
+text-align:center;
+
+}
+
+
+.testimoni h2{
+
+font-size:40px;
+margin-bottom:50px;
+
+}
+
+
+
+.testimoni-container{
+
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+
+}
+
+
+
+.testimoni-card{
+
+width:300px;
+
+padding:30px;
+
+background:#faf7f2;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px #0002;
+
+}
+
+
+
+.testimoni-card p{
+
+font-size:18px;
+line-height:1.6;
+
+}
+
+
+
+.testimoni-card h3{
+
+color:#ff9800;
+font-size:22px;
+
+}
+
+
+
+.testimoni-card span{
+
+font-weight:bold;
+
+}
