@@ -764,3 +764,12 @@ border-top:1px solid #ffffff33;
 text-align:center;
 
 }
+.product-card:hover,
+.feature:hover,
+.category-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 30px #ff80ab55;
+
+}
