@@ -8,7 +8,7 @@ font-family:'Segoe UI',sans-serif;
 
 
 body{
-background:#faf7f2;
+background:#fff0f5;
 color:#1d2939;
 }
 
@@ -21,7 +21,7 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:20px 8%;
-    background:#062b2b;
+    background:#c2185b;
 }
 
 
@@ -33,7 +33,7 @@ header{
 
 
 .logo span{
-    color:#ff7a00;
+    color:#ff80ab;
 }
 
 
@@ -51,7 +51,9 @@ nav a{
 
 
 nav a:hover{
-    color:#ff7a00;
+
+color:#ff80ab;
+
 }
 
 
@@ -133,7 +135,7 @@ margin-right:15px;
 
 .btn{
 
-background:#ff7a00;
+background:#ff80ab;
 color:white;
 
 }
@@ -143,7 +145,7 @@ color:white;
 .btn-secondary{
 
 background:white;
-color:#062b2b;
+color:#c2185b;
 
 }
 
@@ -250,7 +252,7 @@ margin:20px 0;
 
 font-size:25px;
 
-color:#ff7a00;
+color:#ff80ab;
 
 margin:15px;
 
@@ -260,7 +262,7 @@ margin:15px;
 
 button{
 
-background:#ff7a00;
+background:#ff80ab;
 
 border:none;
 
@@ -279,7 +281,7 @@ font-size:16px;
 
 footer{
 
-background:#062b2b;
+background:#c2185b;
 
 color:white;
 
@@ -364,7 +366,7 @@ flex-wrap:wrap;
 width:220px;
 height:180px;
 
-background:#faf7f2;
+background:#fff0f5;
 
 border-radius:20px;
 
@@ -426,7 +428,7 @@ flex-wrap:wrap;
 width:220px;
 height:180px;
 
-background:#faf7f2;
+background:#fff0f5;
 
 border-radius:20px;
 
@@ -457,7 +459,7 @@ font-weight:600;
 .products{
 
 padding:80px 8%;
-background:#faf7f2;
+background:#fff0f5;
 text-align:center;
 
 }
@@ -531,7 +533,7 @@ font-size:24px;
 
 font-size:22px;
 font-weight:bold;
-color:#ff7a00;
+color:#ff80ab;
 
 }
 
@@ -539,7 +541,7 @@ color:#ff7a00;
 
 .product-card button{
 
-background:#ff7a00;
+background:#ff80ab;
 color:white;
 
 border:none;
@@ -554,7 +556,7 @@ font-size:16px;
 .stats{
 
 padding:80px 8%;
-background:#063b32;
+background:#c2185b;
 text-align:center;
 color:white;
 
@@ -602,7 +604,7 @@ box-shadow:0 10px 25px #0003;
 .stat-card h3{
 
 font-size:45px;
-color:#ff7a00;
+color:#ff80ab;
 
 margin:0;
 
@@ -617,7 +619,7 @@ font-size:18px;
 .testimoni{
 
 padding:80px 8%;
-background:#faf7f2;
+background:#fff0f5;
 text-align:center;
 
 }
@@ -686,7 +688,7 @@ transform:scale(1.05);
 }
 .footer{
 
-background:#063b32;
+background:#c2185b;
 color:white;
 
 padding:60px 8% 20px;
@@ -715,7 +717,7 @@ width:250px;
 
 .footer-box h2{
 
-color:#ff7a00;
+color:#ff80ab;
 
 }
 
