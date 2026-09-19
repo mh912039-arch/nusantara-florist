@@ -773,3 +773,28 @@ transform:translateY(-10px);
 box-shadow:0 15px 30px #ff80ab55;
 
 }
+
+
+/* ===== FIXED RESPONSIVE IMPROVEMENTS ===== */
+html { scroll-behavior: smooth; }
+a { transition: .3s ease; }
+.product-card, .feature, .category-card, .stat-card, .testimoni-card {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.buy-button, .product-card a {
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 24px;
+    background:#c2185b;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+.buy-button:hover, .product-card a:hover {
+    background:#ff80ab;
+}
+@media(max-width:768px){
+    .hero { min-height:600px; }
+    .hero h1 { font-size:38px; }
+    nav { flex-wrap:wrap; justify-content:center; gap:15px; }
+}
