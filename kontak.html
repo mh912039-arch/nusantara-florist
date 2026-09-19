@@ -198,6 +198,44 @@ All Rights Reserved.
 </footer>
 
 
+<script>
 
+function kirimWhatsApp(){
+
+let nama =
+document.querySelector('input[placeholder="Nama Anda"]').value;
+
+let email =
+document.querySelector('input[placeholder="Email Anda"]').value;
+
+let wa =
+document.querySelector('input[placeholder="Nomor WhatsApp"]').value;
+
+let pesan =
+document.querySelector('textarea').value;
+
+
+let text =
+`Halo Nusantara Florist
+
+Nama: ${nama}
+Email: ${email}
+WhatsApp: ${wa}
+
+Pesan:
+${pesan}`;
+
+
+let nomor = "6282338306206";
+
+
+window.open(
+"https://wa.me/"+nomor+"?text="+encodeURIComponent(text),
+"_blank"
+);
+
+}
+
+</script>
 </body>
 </html>
